@@ -1,0 +1,16 @@
+import numpy as pk
+arr = pk.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))
+print(pk.max(arr))
+print(pk.min(arr))
+print(pk.mean(arr))
+print(pk.sum(arr))
+print(pk.zeros(5))
+print(pk.ones(8))
+print(pk.arange(2, 10, 2))
+print(pk.arange(1, 10, 2))
+
+n = int(input("Enter a number: "))
+ts = list(map(int, input("Enter the elements: ").split()))
+print("Array elements are:", pk.array(ts))
