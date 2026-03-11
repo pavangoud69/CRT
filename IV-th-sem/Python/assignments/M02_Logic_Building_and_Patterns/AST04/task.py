@@ -1,4 +1,5 @@
 def right_triangle(n: int) -> str:
+    #task 4
     result = ""
     
     for i in range(1, n + 1):

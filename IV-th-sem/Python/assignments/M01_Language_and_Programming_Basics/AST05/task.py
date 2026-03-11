@@ -1,6 +1,6 @@
 from typing import List
 
-
+#task5
 def Collatz_Sequence(n: int) -> List[int]:
     sequence = []
     

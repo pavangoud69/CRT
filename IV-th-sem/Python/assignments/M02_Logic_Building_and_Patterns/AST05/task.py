@@ -1,4 +1,5 @@
 def number_triangle(n: int) -> str:
+    #task5
     result = ""
     
     for i in range(1, n + 1):

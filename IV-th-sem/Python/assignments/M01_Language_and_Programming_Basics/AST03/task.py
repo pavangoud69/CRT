@@ -1,4 +1,5 @@
 def calculate_result(name: str, grades: list) -> str:
+    #task 3
     average = sum(grades) / len(grades)
     status = "Pass" if average >= 40 else "Fail"
     return f"Average grade: {average:.2f}, Status: {status}"

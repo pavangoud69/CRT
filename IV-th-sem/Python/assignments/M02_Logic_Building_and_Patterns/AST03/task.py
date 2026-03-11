@@ -1,4 +1,5 @@
 def sum_of_digits(n: int) -> int:
+    #task3
     n = abs(n)
     total = 0
     
